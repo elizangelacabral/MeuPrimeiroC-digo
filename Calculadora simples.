@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+  public class MinhaCalculadora {
+    
+    public static void main(String[] args) {
+       
+       Scanner entrada = new Scanner(System.in);
+       float a, b, soma, sub, div, mult;
+       
+       System.out.println("Digite o primeiro número: "); 
+       a = entrada.nextFloat();
+      
+       System.out.println("Digite o segundo número: ");
+       b = entrada.nextFloat();
+      
+       soma = a + b;
+       sub = a - b;
+       mult = a * b;
+       div = a / b;
+      
+       System.out.println("O resultado da soma é: " + soma);
+       System.out.println("O resultado da subtração é: " + sub);
+       System.out.println("O resultado da multiplicação é: " + mult);
+       System.out.println("O resultado da divisão é: " + div);
+    
+        
+        
+    }
+}
